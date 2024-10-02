@@ -76,7 +76,7 @@ function App() {
       tabIndex="0"
       onKeyDown={handleKeyDown}
     >
-      <h3 id="wpm-display">WPM: {startTime === 0 ? "" : getWPM()}</h3>
+      <h3 id="wpm-display">Test Display, lets see if actions work WPM: {startTime === 0 ? "" : getWPM()}</h3>
       {
         endScreen === 1 ? <div></div> :
         <div>
