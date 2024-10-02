@@ -10,6 +10,9 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
+      - name: Get into right dir
+        uses: cd type-quest
+
       - name: Setup npm
         uses: actions/setup-node@v4
 
