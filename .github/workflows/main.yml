@@ -21,4 +21,5 @@ jobs:
 
       - name: Run deployment script
         run: npm run deploy
+        token: $ {{ secrets.GH_TOKEN}}
         
